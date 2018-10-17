@@ -1,0 +1,256 @@
+@media (min-width: 280px) and (max-width: 1080px) {
+	.contacts_row {
+		padding:65px 15px 94px;
+	}
+}
+@media (min-width: 280px) and (max-width: 980px) {
+	.header {
+		display:block;
+	}
+	.row_mob {
+		width:100%;
+	}
+	.header .header_phone {
+		margin:0 auto;
+	}
+	.nav_block {
+		position:fixed;
+		max-width:none;
+		width:100%;
+		height:100%;
+		background-color:rgba(0, 0, 0, 0.85);
+		z-index:50;
+		left:0;
+		top:0;
+		display:none; 
+	}
+	.nav_block.active,
+	.icon-menu {
+		display:block;
+	}
+	.nav_block ul {
+		position:absolute;
+		width:100%;
+		top:50%;
+    	text-align:center;
+    	-webkit-animation-duration:0.01s;
+    	animation-duration:0.01s;
+		margin-top:-125px;
+		display:block;
+	}
+	.nav_block ul li {
+		width:100%;
+		padding:5px 0;
+		display:block;
+	}
+	nav ul li:after {
+		display:none;
+	}
+	.nav_block ul li a {
+		line-height:30px;
+		display:block;
+	}
+    .nav_block ul li:nth-child(1) a {
+     	-webkit-animation-delay:0;
+      	animation-delay:0; 
+	}
+    .nav_block ul li:nth-child(2) a {
+     	-webkit-animation-delay:0.1s;
+      	animation-delay:0.1s; 
+	}
+    .nav_block ul li:nth-child(3) a {
+      	-webkit-animation-delay:0.2s;
+      	animation-delay:0.2s; 
+	}
+    .nav_block ul li:nth-child(4) a {
+      	-webkit-animation-delay:0.3s;
+      	animation-delay:0.3s; 
+	}
+	.nav_block ul li:nth-child(5) a {
+      	-webkit-animation-delay:0.4s;
+      	animation-delay:0.4s; 
+	}
+	.nav_block ul li:nth-child(6) a {
+      	-webkit-animation-delay:0.5s;
+      	animation-delay:0.5s; 
+	}
+	.nav_block ul li:nth-child(7) a {
+      	-webkit-animation-delay:0.6s;
+      	animation-delay:0.6s; 
+	}
+    .nav_block ul a:hover {
+        background-color:rgba(255, 255, 255, 0.08);
+		text-decoration:none; 
+	}
+	.main_reviews > ul {
+		display:block;
+	}
+	.main_reviews > ul > li {
+		max-width:370px;
+		width:100%;
+		margin:0 5px 20px;
+	}
+	.content_row.row_flex {
+		display:block;
+	}
+	.left_menu {
+		width:100%;
+		margin:0 0 20px;
+	}
+	.right_colum {
+		width:100%;
+	}
+	.contacts_row {
+		text-align:center;
+		padding:65px 15px;
+		display:block;
+	}
+	.address_contacts,
+	.phone_contacts {
+		margin:0 5px 20px;
+	}
+}
+@media (min-width: 280px) and (max-width: 750px) {
+	footer .row_flex,
+	.digital_printing .row_flex,
+	.to_order_print {
+		display:block;
+	}
+	.item_footer {
+		max-width:none;
+		text-align:center;
+	}
+	footer .logo_block {
+		max-width:none;
+		text-align:left;
+		margin:0 auto;
+	}
+	footer .header_phone {
+		margin:0 auto;
+		padding-top:20px;
+	}
+	.digital_img {
+		width:100%;
+		margin:0 0 15px;
+	}
+	.digital_text,
+	.to_order_print p {
+		text-align:center;
+		width:100%;
+	}
+	.to_order_print {
+		text-align:center;
+	}
+	.to_order_print p {
+		margin:0 0 15px;
+	}
+	.digital_printing .row_flex,
+	.to_order_print {
+		padding-bottom:30px;
+	}
+	.services ul {
+		display:block;
+	}
+	.services ul li {
+		width:250px;
+		margin:0 10px 20px;
+	}
+	.banner_text {
+		padding:0 15px 15px 15px;
+	}
+	.banner_text p {
+		padding-bottom:25px;
+	}
+	.advantages li {
+		width:218px;
+	}
+}
+@media (min-width: 280px) and (max-width: 720px) {
+	.row_mob {
+		display:block;
+	}
+	.logo_block {
+		max-width:none;
+		margin-bottom:10px;
+	}
+	.header_address {
+		margin:0 auto 10px;
+	}
+	.order_form .row_flex {
+		display:block;
+	}
+	.order_form .row_input {
+		max-width:none;
+		margin:0 !important;
+	}
+	.table_printing th:first-child, 
+	.table_printing td:first-child {
+		width:60%;
+		padding-left:15px;
+	}
+	.last_work .head_block,
+	.submit_application .head_block {
+		text-align:center;
+		padding:0;
+	}
+	.submit_application .input {
+		width:95%;
+		margin:0 0 10px;
+	}
+	.submit_application .submit,
+	.to_order_button {
+		max-width:none;
+		width:95%;
+		margin:0;
+	}
+	.last_work ul {
+		padding:0 15px;
+	}
+}
+@media (min-width: 280px) and (max-width: 550px) {
+	.main_banner {
+		height:250px;
+	}
+}
+@media (min-width: 280px) and (max-width: 480px) {
+	.logo_block {
+		text-align:center !important;
+		display:block;
+	}
+	.text_logo {
+		width:100%;
+	}
+	.last_work {
+		padding-left:0;
+		padding-right:0;
+	}
+	.last_work ul li,
+	.main_reviews > ul > li {
+		margin:0 0 26px;
+	}
+	.last_work .head_block {
+		padding:0;
+	}
+	.services ul li {
+		width:100%;
+		margin:0 0 20px;
+		display:block;
+	}
+	.address_contacts {
+		background-position:center top;
+		width:100%;
+		height:auto;
+		text-align:center;
+		padding:65px 0 0 0;
+	}
+	.phone_contacts {
+		background-position:center top;
+		line-height:normal;
+		padding:60px 0 0 0;
+	}
+	.main_contacts {
+		background-position:center top;
+		line-height:normal;
+		padding:60px 0 0 0;
+	}
+}

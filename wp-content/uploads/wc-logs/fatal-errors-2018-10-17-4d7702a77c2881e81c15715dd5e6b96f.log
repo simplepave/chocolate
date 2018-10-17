@@ -1,0 +1,82 @@
+2018-10-17T10:11:15+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_available_variations() in W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php:66
+Stack trace:
+#0 W:\domains\chocolate.local\wp-includes\template.php(690): require()
+#1 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#2 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#4 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#5 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\index.php(17): require('W:\\domains\\choc...')
+#7 {main}
+  thrown
+
+2018-10-17T10:33:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Attribute::data() in W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php:67
+Stack trace:
+#0 W:\domains\chocolate.local\wp-includes\template.php(690): require()
+#1 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#2 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#4 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#5 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\index.php(17): require('W:\\domains\\choc...')
+#7 {main}
+  thrown
+
+2018-10-17T10:33:24+00:00 CRITICAL Uncaught Error: Cannot access protected property WC_Product_Attribute::$data in W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php:67
+Stack trace:
+#0 W:\domains\chocolate.local\wp-includes\template.php(690): require()
+#1 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#2 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#4 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#5 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\index.php(17): require('W:\\domains\\choc...')
+#7 {main}
+  thrown
+
+2018-10-17T12:12:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_variation_prices() in W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php:65
+Stack trace:
+#0 W:\domains\chocolate.local\wp-includes\template.php(690): require()
+#1 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#2 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#4 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#5 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\index.php(17): require('W:\\domains\\choc...')
+#7 {main}
+  thrown
+
+2018-10-17T13:06:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_term_by(), 1 passed in W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php on line 77 and at least 2 expected in W:\domains\chocolate.local\wp-includes\taxonomy.php:852
+Stack trace:
+#0 W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php(77): get_term_by(17)
+#1 W:\domains\chocolate.local\wp-includes\template.php(690): require('W:\\domains\\choc...')
+#2 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#3 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#4 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#5 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#7 W:\domains\cho
+
+2018-10-17T15:00:44+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in W:\domains\chocolate.local\wp-content\themes\sptheme\functions.php:392
+Stack trace:
+#0 W:\domains\chocolate.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php(58): re_woo_product_variations_tab_content()
+#1 W:\domains\chocolate.local\wp-includes\template.php(690): require('W:\\domains\\choc...')
+#2 W:\domains\chocolate.local\wp-includes\template.php(647): load_template('W:\\domains\\choc...', false)
+#3 W:\domains\chocolate.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#4 W:\domains\chocolate.local\wp-content\themes\sptheme\services.php(10): get_template_part('template-parts/...', 'card')
+#5 W:\domains\chocolate.local\wp-includes\template-loader.php(74): include('W:\\domains\\choc...')
+#6 W:\domains\chocolate.local\wp-blog-header.php(19): require_once('W:\\domains\\choc...')
+#7 W:\domains\chocolate.local\index.php(17): require('W:\\domains\\choc...')
+#8 {main}
+  thrown
+
+2018-10-17T19:03:59+00:00 CRITICAL Uncaught Error: Call to undefined function hh() in W:\domains\chocolate.local\wp-content\themes\sptheme\functions.php:349
+Stack trace:
+#0 W:\domains\chocolate.local\wp-includes\class-wp-hook.php(286): custom_woocommerce_get_order_item_totals(Array, Object(WC_Order), 'excl')
+#1 W:\domains\chocolate.local\wp-includes\plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 W:\domains\chocolate.local\wp-content\plugins\woocommerce\includes\class-wc-order.php(1987): apply_filters('woocommerce_get...', Array, Object(WC_Order), 'excl')
+#3 W:\domains\chocolate.local\wp-content\plugins\woocommerce\templates\emails\email-order-details.php(62): WC_Order->get_order_item_totals()
+#4 W:\domains\chocolate.local\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('W:\\domains\\choc...')
+#5 W:\domains\chocolate.local\wp-content\plugins\woocommerce\includes\class-wc-emails.php(377): wc_get_template('emails/email-or...', Array)
+#6 W:\domains\chocolate.local\wp-includes\class-wp-hook.php(286): WC_Emails-
+

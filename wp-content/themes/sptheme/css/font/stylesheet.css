@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('OpenSansRegular.eot');
+    src: url('OpenSansRegular.eot') format('embedded-opentype'),
+         url('OpenSansRegular.woff2') format('woff2'),
+         url('OpenSansRegular.woff') format('woff'),
+         url('OpenSansRegular.ttf') format('truetype'),
+         url('OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('OpenSansBold.eot');
+    src: url('OpenSansBold.eot') format('embedded-opentype'),
+         url('OpenSansBold.woff2') format('woff2'),
+         url('OpenSansBold.woff') format('woff'),
+         url('OpenSansBold.ttf') format('truetype'),
+         url('OpenSansBold.svg#OpenSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansCondLight';
+    src: url('OpenSansCondLight.eot');
+    src: url('OpenSansCondLight.eot') format('embedded-opentype'),
+         url('OpenSansCondLight.woff2') format('woff2'),
+         url('OpenSansCondLight.woff') format('woff'),
+         url('OpenSansCondLight.ttf') format('truetype'),
+         url('OpenSansCondLight.svg#OpenSansCondLight') format('svg');
+}
